@@ -1,0 +1,68 @@
+{
+  "result": {
+    "tp": 33,
+    "fp": 0,
+    "tn": 87,
+    "fn": 0,
+    "n_faulty": 33,
+    "n_clean": 87,
+    "tpr": 1.0,
+    "fpr": 0.0,
+    "cost_ledger": 180.0,
+    "budget": 220.0,
+    "cost_overage": 0.0,
+    "per_pillar": {
+      "n/a": {
+        "tp": 0,
+        "fp": 0,
+        "tn": 87,
+        "fn": 0
+      },
+      "checks": {
+        "tp": 6,
+        "fp": 0,
+        "tn": 0,
+        "fn": 0
+      },
+      "contracts": {
+        "tp": 7,
+        "fp": 0,
+        "tn": 0,
+        "fn": 0
+      },
+      "ai_infra": {
+        "tp": 13,
+        "fp": 0,
+        "tn": 0,
+        "fn": 0
+      },
+      "lineage": {
+        "tp": 7,
+        "fp": 0,
+        "tn": 0,
+        "fn": 0
+      }
+    },
+    "tier_breakdown": {
+      "obvious": {
+        "caught": 20,
+        "total": 20
+      },
+      "subtle": {
+        "caught": 2,
+        "total": 2
+      }
+    },
+    "score": 50.0,
+    "phase": "practice",
+    "defense_file": "solution\\defense.py",
+    "per_pillar_band": {
+      "n/a": "n/a",
+      "checks": "high",
+      "contracts": "high",
+      "ai_infra": "high",
+      "lineage": "high"
+    }
+  },
+  "signature": "ef2aef69c9b73a6ff3d3bf60f1dd96f59a9c098c3027bf2f7d8f091d23023c80"
+}
